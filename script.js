@@ -59,7 +59,7 @@ function generatePassword() {
     passwordArray.push(emptyArray[Math.floor(Math.random()*emptyArray.length)]);
   }
 
-  // "join()" returns the array as a string. The quotes specificy the separtor, which is no separator"
+  // "join()" returns the array as a string. The quotes specificy the separtor, which is no separator
   return passwordArray.join("");
 }
 
